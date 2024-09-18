@@ -1,4 +1,4 @@
-import { Layout } from "./layout";
+import { Layout } from "./Layout";
 
 export function LandingPage() {
   return (
