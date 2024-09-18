@@ -1,0 +1,3 @@
+2024-09-17 16:49:37 - XSS Injection detected from 127.0.0.1. Request blocked.
+2024-09-17 16:50:00 - ALLOWED - IP: 127.0.0.1, Request: GET /search HTTP/1.1
+2024-09-17 16:50:00 - Error forwarding request: [WinError 10049] The requested address is not valid in its context

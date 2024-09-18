@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+    <!ELEMENT items (item*)>
+    <!ATTLIST items burpVersion CDATA ""> 
+    <!ATTLIST items exportTime CDATA ""> 
+    <!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)> <!ELEMENT time (#PCDATA)> <!ELEMENT url (#PCDATA)> <!ELEMENT host (#PCDATA)> <!ATTLIST host ip CDATA ""> <!ELEMENT port (#PCDATA)> <!ELEMENT protocol (#PCDATA)> <!ELEMENT method (#PCDATA)> <!ELEMENT path (#PCDATA)> <!ELEMENT extension (#PCDATA)> <!ELEMENT request (#PCDATA)> <!ATTLIST request base64 (true|false) "false"> <!ELEMENT status (#PCDATA)> <!ELEMENT responselength (#PCDATA)> <!ELEMENT mimetype (#PCDATA)> <!ELEMENT response (#PCDATA)> <!ATTLIST response base64 (true|false) "false">
+    <!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2024.7.6" exportTime="Mon Sep 16 12:48:35 IST 2024">
+    <item>
+        <time>Mon Sep 16 07:00:46 IST 2024</time>
+        <url><![CDATA[http://example.com/login.php]]></url>
+        <host ip="192.168.1.100">example.com</host>
+        <port>80</port>
+        <protocol>http</protocol>
+        <method><![CDATA[POST]]></method>
+        <path><![CDATA[/login.php]]></path>
+        <extension>php</extension>
+        <request base64="true"><![CDATA[UE9TVCAvbG9naW4ucGhwIEhUVFAvMS4xDQpIb3N0OiBleGFtcGxlLmNvbQ0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6MTMwLjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTMwLjANCkFjY2VwdDogKi8qDQpBY2NlcHQtTGFuZ3VhZ2U6IGVuLVVTLGVuO3E9MC41DQpBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUsIGJyDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZA0KQ29udGVudC1MZW5ndGg6IDM4DQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQoNCnVzZXJuYW1lPWFkbWluJnBhc3N3b3JkPScgT1IgJzEnPSc=]]></request>
+        <status>200</status>
+        <responselength>1234</responselength>
+        <mimetype>text/html</mimetype>
+        <response base64="true"><![CDATA[SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpDb250ZW50LUxlbmd0aDogOTANCkRhdGU6IFN1biwgMTUgU2VwIDIwMjQgMjM6MTE6NDQgR01UDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KDQo8aHRtbD4NCiAgPGhlYWQ+DQogICAgPHRpdGxlPkxvZ2luIFBhZ2U8L3RpdGxlPg0KICA8L2hlYWQ+DQogIDxib2R5Pg0KICAgIDxoMT5Mb2dpbjwvaDE+DQogICAgPGZvcm0gYWN0aW9uPSIvbG9naW4ucGhwIiBtZXRob2Q9InBvc3QiPg0KICAgICAgVXNlcm5hbWU6IDxpbnB1dCB0eXBlPSJ0ZXh0IiBuYW1lPSJ1c2VybmFtZSI+PGJyPg0KICAgICAgUGFzc3dvcmQ6IDxpbnB1dCB0eXBlPSJwYXNzd29yZCIgbmFtZT0icGFzc3dvcmQiPjxicj4NCiAgICAgIDxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJMb2dpbiI+DQogICAgPC9mb3JtPg0KICA8L2JvZHk+DQo8L2h0bWw+]]></response>
+        <comment>Attempted SQL injection by appending a tautology to the password field</comment>
+    </item>
+    <item>
+        <time>Mon Sep 16 07:01:12 IST 2024</time>
+        <url><![CDATA[http://example.com/product.php?id=1]]></url>
+        <host ip="192.168.1.100">example.com</host>
+        <port>80</port>
+        <protocol>http</protocol>
+        <method><![CDATA[GET]]></method>
+        <path><![CDATA[/product.php?id=1]]></path>
+        <extension>php</extension>
+        <request base64="true"><![CDATA[R0VUIC9wcm9kdWN0LnBocD9pZD0xIEhUVFAvMS4xDQpIb3N0OiBleGFtcGxlLmNvbQ0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6MTMwLjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTMwLjANCkFjY2VwdDogKi8qDQpBY2NlcHQtTGFuZ3VhZ2U6IGVuLVVTLGVuO3E9MC41DQpBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUsIGJyDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQoNCg==]]></request>
+        <status>200</status>
+        <responselength>1567</responselength>
+        <mimetype>text/html</mimetype>
+        <response base64="true"><![CDATA[SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpDb250ZW50LUxlbmd0aDogOTANCkRhdGU6IFN1biwgMTUgU2VwIDIwMjQgMjM6MTE6NDQgR01UDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KDQo8aHRtbD4NCiAgPGhlYWQ+DQogICAgPHRpdGxlPlByb2R1Y3QgUGFnZTwvdGl0bGU+DQogIDwvaGVhZD4NCiAgPGJvZHk+DQogICAgPGgxPlByb2R1Y3QgRGV0YWlsczwvaDE+DQogICAgPHA+UHJvZHVjdCBJRDogMTwvcD4NCiAgICA8cD5Qcm9kdWN0IE5hbWU6IFRlc3QgUHJvZHVjdDwvcD4NCiAgICA8cD5QcmljZTogJDk5Ljk5PC9wPg0KICAgIDxwPkRlc2NyaXB0aW9uOiBUaGlzIGlzIGEgdGVzdCBwcm9kdWN0IGZvciBkZW1vbnN0cmF0aW9uIHB1cnBvc2VzLjwvcD4NCiAgPC9ib2R5Pg0KPC9odG1sPg==]]></response>
+        <comment>Attempted SQL injection by appending a UNION SELECT to the product ID parameter</comment>
+    </item>
+    <item>
+        <time>Mon Sep 16 07:02:01 IST 2024</time>
+        <url><![CDATA[http://example.com/search.php?q=test']]></url>
+        <host ip="192.168.1.100">example.com</host>
+        <port>80</port>
+        <protocol>http</protocol>
+        <method><![CDATA[GET]]></method>
+        <path><![CDATA[/search.php?q=test']]></path>
+        <extension>php</extension>
+        <request base64="true"><![CDATA[R0VUIC9zZWFyY2gucGhwP3E9dGVzdCcgSFRUUC8xLjENCkhvc3Q6IGV4YW1wbGUuY29tDQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxMzAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xMzAuMA0KQWNjZXB0OiAqLyoNCkFjY2VwdC1MYW5ndWFnZTogZW4tVVMsZW47cT0wLjUNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnINCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCg0K]]></request>
+        <status>500</status>
+        <responselength>1234</responselength>
+        <mimetype>text/html</mimetype>
+        <response base64="true"><![CDATA[SFRUUC8xLjEgNTAwIEludGVybmFsIFNlcnZlciBFcnJvcg0KU2VydmVyOiBuZ2lueA0KQ29udGVudC1UeXBlOiB0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgNCkRhdGU6IFN1biwgMTUgU2VwIDIwMjQgMjM6MTE6NDQgR01UDQpDb250ZW50LUxlbmd0aDogMTIzDQoNCjxodG1sPg0KICA8aGVhZD4NCiAgICA8dGl0bGU+RXJyb3IgUGFnZTwvdGl0bGU+DQogIDwvaGVhZD4NCiAgPGJvZHk+DQogICAgPGgxPkludGVybmFsIFNlcnZlciBFcnJvcjwvaDE+DQogICAgPHA+QW4gZXJyb3Igb2NjdXJyZWQgd2hpbGUgcHJvY2Vzc2luZyB5b3VyIHJlcXVlc3QuPC9wPg0KICA8L2JvZHk+DQo8L2h0bWw+]]></response>
+        <comment>Attempted SQL injection by appending a single quote to the search query parameter</comment>
+    </item>
+</items>

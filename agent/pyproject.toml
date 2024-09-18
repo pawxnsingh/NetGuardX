@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "agent-firewall"
+version = "0.0.0"
+description = "ML-Powered Web Application Firewall"
+authors = ["Punjabi bois"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standard"], version = "^0.114.2"}
+redis = "^5.0.8"
+requests = "^2.32.3"
+classifier = "^2.0"
+pandas = "^2.2.2"
+scapy = "^2.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
