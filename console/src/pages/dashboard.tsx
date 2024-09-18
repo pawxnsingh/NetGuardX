@@ -230,8 +230,7 @@ export function Dashboard() {
                 <span className="sr-only">Grafana dashboard placeholder</span>
               </div>
               <p className="mt-4 text-sm text-muted-foreground">
-                This is a placeholder for a Grafana dashboard. In a real
-                implementation, you would embed live Grafana panels here.
+                Punjabi bois will implement this soon.
               </p>
             </CardContent>
           </Card>
